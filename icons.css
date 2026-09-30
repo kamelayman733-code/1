@@ -1,0 +1,23 @@
+/* =========================================================
+   ICONS
+========================================================= */
+
+.fa-solid {
+    transition:
+        transform 0.25s ease,
+        color 0.25s ease,
+        text-shadow 0.25s ease;
+    color:  rgb(242, 185, 247);
+}
+
+#send .fa-solid {
+    color:  rgb(242, 185, 247);
+    transition:
+        transform 0.25s ease,
+        color 0.25s ease,
+        text-shadow 0.25s ease;
+}
+
+button:hover .fa-solid {
+    color:  white;
+}

@@ -1,0 +1,30 @@
+#chat {
+    padding: 20px 10px 120px;
+
+    background-color: #270642;
+    width: 70%;
+
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    height: 75vh;
+    box-sizing: border-box;
+
+    border: 2px solid rgb(252, 140, 235);
+    border-bottom: none;
+
+    direction: ltr;
+
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
+
+    margin-right: 7%;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    scrollbar-color: #ed52f8 #270642 !important;
+}

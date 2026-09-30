@@ -1,0 +1,59 @@
+/* =========================================================
+   DESKTOP
+========================================================= */
+
+@media (min-width: 769px) {
+
+    .c {
+        display: block;
+    }
+
+    .p {
+        display: none;
+    }
+
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+
+    header {
+        background:
+            linear-gradient(
+                135deg,
+                var(--primary),
+                var(--secondary)
+            );
+        text-align: center;
+        font-size: 60px;
+        font-family:
+            'Franklin Gothic Medium',
+            'Arial Narrow',
+            Arial,
+            sans-serif;
+        color: var(--white);
+        width: 100%;
+    }
+
+    #chat {
+        height: 475px;
+    }
+
+    #send:hover {
+        transform: scale(1.06);
+    }
+
+    #newChat:hover,
+    #deleteAll:hover {
+        transform: translateY(-2px);
+    }
+
+    .message:hover,
+    .messageai:hover {
+        transform: none;
+    }
+
+}

@@ -1,0 +1,16 @@
+/* =========================================================
+   SEYRAN AI — NEW COLOR THEME
+   Royal Purple + Electric Blue + Deep Navy
+========================================================= */
+
+:root {
+    --primary: #7C3AED;
+    --secondary: #2563EB;
+    --white: #F8FAFC;
+    --light: #E0E7FF;
+    --black: #050816;
+    --dark: #0A1024;
+    --dark-2: #111A35;
+    --shadow: rgba(124, 58, 237, 0.35);
+    --cyan-shadow: rgba(37, 99, 235, 0.30);
+}

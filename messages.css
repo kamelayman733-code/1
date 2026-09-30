@@ -1,0 +1,62 @@
+/* =========================================================
+   USER MESSAGE
+========================================================= */
+
+.message {
+    color: var(--white);
+    background:
+        linear-gradient(
+            135deg,
+            #410c9b,
+            #370556
+        );
+    font-size: 25px;
+    width: fit-content;
+    max-width: 80%;
+    padding: 8px 14px;
+    border-radius: 15px;
+    overflow-wrap: break-word;
+    margin-left: auto;
+   
+ margin-top: 7px;
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.message:hover {
+    transform: translateX(-6px);
+    box-shadow:
+        0 3px 8px rgba(124, 58, 237, 0.25),
+        0 0 15px rgba(37, 99, 235, 0.12);
+}
+
+/* =========================================================
+   AI MESSAGE
+========================================================= */
+
+.messageai {
+    color:   var(--white);
+    background:  #470263;
+    font-size: 25px;
+    width: fit-content;
+    max-width: 80%;
+    padding: 8px 14px;
+    border-radius: 15px;
+    overflow-wrap: break-word;
+    margin-right: auto;
+     margin-top: 7px;
+   
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.messageai:hover {
+    transform: translateX(6px);
+   
+    box-shadow:
+    
+        0 3px 8px rgba(124, 58, 237, 0.18),
+        0 0 15px rgba(37, 99, 235, 0.08);
+}

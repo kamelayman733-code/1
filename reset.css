@@ -1,0 +1,103 @@
+/* =========================================================
+   RESET
+========================================================= */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url('\\IMG\\66aa90d7-bf11-4b70-a2e3-6a1c8543c636.png');
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+#imj
+{
+    width: 90%;
+    padding: 5px;
+    margin:auto;
+    
+    display: block;
+    border-radius: 50%;
+
+   
+}
+
+
+
+#span1{
+   margin: 0 auto;
+   display: block;
+   text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+  background: linear-gradient(
+        90deg,
+        #ea05f6,
+        #fa49f7,
+        #f972fd,
+        #f47fe8
+    );
+
+font-family:
+        'Franklin Gothic Medium',
+        'Arial Narrow',
+        Arial,
+        sans-serif;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+
+
+.message-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    width: 100%;
+    margin: 0px;
+}
+
+.message-wrapper.user {
+    direction: rtl;
+    justify-content: flex-start;
+}
+
+.message-wrapper.ai {
+    direction: ltr;
+    justify-content: flex-start;
+}
+
+.message-avatar {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+
+    border-radius: 50%;
+    margin-top: 7px;
+    object-fit: cover;
+
+    border: none;
+
+   
+}
+
+.message,
+.messageai {
+    max-width: 75%;
+    word-wrap: break-word;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <title>SEYRAN AI</title>
+
+    <!-- CSS خارجي -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="stylesheet" href="css/input-area.css">
+    <link rel="stylesheet" href="css/send-button.css">
+    <link rel="stylesheet" href="css/messages.css">
+    <link rel="stylesheet" href="css/textarea.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/history.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+
+
+
+<link rel="stylesheet" href="css-phone/reset.css">
+
+
+
+<link rel="icon" type="image/png" href="IMG\\seyran_exact_pink_palette_icon.png">
+<link rel="apple-touch-icon" href="IMG\\seyran_exact_pink_palette_icon.png">
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#ed52f8">
+
+
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+         
+      
+
+        <span>SEYRAN AI</span>
+   <button id="menuBtn" onclick="ktoggleMenu()">
+    ☰
+</button>
+    </header>
+
+    <!-- APP -->
+    <div class="app">
+
+
+ <div id="e">
+
+<img src="IMG\\seyran_exact_pink_palette_icon.png" id="imj">   
+
+<span id ="span1">SEYRAN AI</span>
+
+
+            <div id="chatHistory"></div>
+
+            <div id="mv">
+                
+                
+                <button id="deleteAll">Delete All</button>
+                <br>
+                 <button id="darkmood" onclick="toggleDarkMode()">
+                  Light mood
+                 </button>
+                 <br>
+                   <button id="newChat">  New chat </button>
+             
+            </div>
+        </div>
+
+
+
+        <!-- CHAT -->
+        <main id="chat">
+
+
+        </main>
+
+       
+<div class="input-area">
+        <button id="send" type="button">
+            <i class="fa-solid fa-microphone" id="MMJ"></i>
+        </button>
+
+        <textarea id="message"></textarea>
+    </div>
+
+    <!-- INPUT -->
+    
+
+    <script src="js/elements.js"></script>
+    <script src="js/gemini-config.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/voice-settings.js"></script>
+    <script src="js/arabic-voice.js"></script>
+    <script src="js/google-tts.js"></script>
+    <script src="js/text-cleaning.js"></script>
+    <script src="js/typewriter.js"></script>
+    <script src="js/speech-recognition.js"></script>
+    <script src="js/title-generator.js"></script>
+    <script src="js/gemini-api.js"></script>
+    <script src="js/send-message.js"></script>
+    <script src="js/events.js"></script>-
+    <script src="js/dark-mode.js"></script>
+    <script src="js/init.js"></script>
+
+
+
+
+
+<script>
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("./service-worker.js");
+}
+</script>
+
+
+
+</body>
+</html>

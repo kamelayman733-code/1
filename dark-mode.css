@@ -1,0 +1,315 @@
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+body.dark-mode {
+     background-image: url('\\IMG\\WhatsApp Image 2026-09-04 at 21.55.56.jpeg');
+    color: var(--white);
+}
+
+
+
+/* =========================================================
+   DARK SIDEBAR
+========================================================= */
+
+body.dark-mode #e {
+    background: #f8c3fa ;
+    color: var(--white);
+   border-left: 2px solid    rgb(252, 140, 235);
+     scrollbar-color:  rgb(250, 134, 232)  #f8c3fa;
+}
+
+/* =========================================================
+   DARK CHAT
+========================================================= */
+
+body.dark-mode #chat {
+  
+  padding: 20px 10px 120px;
+    
+    background-color: #f8c3fa;
+    width: 70%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 75vh;
+    box-sizing: border-box;
+    border: 2px solid     rgb(252, 140, 235);
+    direction: ltr;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
+    margin-right: 7%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    scrollbar-color:  rgb(250, 134, 232)  #f8c3fa !important;
+    border-bottom: none;
+
+}
+
+
+
+
+/* =========================================================
+   DARK INPUT AREA
+========================================================= */
+
+body.dark-mode .input-area {
+    background:  #f5a7f8;
+    color: var(--white);
+    border: 2px solid     rgb(252, 140, 235);
+}
+
+/* =========================================================
+   DARK TEXTAREA
+========================================================= */
+
+body.dark-mode textarea {
+    background:    rgb(250, 134, 232);
+    color: var(--light);
+    border: none;
+    scrollbar-color:
+        var(--secondary)
+        var(--dark);
+}
+
+/* =========================================================
+   DARK USER MESSAGE
+========================================================= */
+
+body.dark-mode .message {
+    background:
+        linear-gradient(
+            135deg,
+             #fc7ae2,
+            #e803fd
+        );
+    color: var(--white);
+  
+      margin-top: 7px;
+}
+
+/* =========================================================
+   DARK AI MESSAGE
+========================================================= */
+
+body.dark-mode .messageai {
+    background:   rgb(250, 134, 232);
+    color: white;
+   
+    margin-top: 7px;
+}
+
+
+
+
+
+
+.message:hover {
+    transform: translateX(-6px);
+    box-shadow:
+        0 3px 8px rgba(239, 77, 245, 0.982),
+        0 0 15px rgba(235, 37, 195, 0.97);
+        border: none;
+}
+
+
+.messageai:hover {
+    transform: translateX(6px);
+    box-shadow:
+        0 3px 8px rgba(239, 77, 245, 0.982),
+        0 0 15px rgba(235, 37, 195, 0.97);
+        border: none;
+}
+
+/* =========================================================
+   DARK MV
+========================================================= */
+
+body.dark-mode #mv {
+    background: none;
+    color: var(--white);
+}
+
+/* =========================================================
+   DARK ALL BUTTONS
+========================================================= */
+
+body.dark-mode button {
+    background: var(--dark);
+    color: white;
+}
+
+/* =========================================================
+   DARK NEW CHAT
+========================================================= */
+
+body.dark-mode #newChat {
+        background:   rgb(250, 134, 232);
+        color: white ;
+        border: 1px solid #fc7ae2;
+
+}
+
+/* =========================================================
+   DARK DELETE ALL
+========================================================= */
+
+body.dark-mode #deleteAll {
+    background: rgb(250, 134, 232);
+    color: white;
+    border: 1px solid #fc7ae2;
+}
+
+/* =========================================================
+   DARK MODE BUTTON
+========================================================= */
+
+body.dark-mode #darkmood {
+    background: rgb(250, 134, 232);
+    color: var(--light);
+    border: 2px solid #fc7ae2;
+}
+
+/* =========================================================
+   DARK SEND
+========================================================= */
+
+body.dark-mode #send {
+    background:  rgb(250, 134, 232);
+    color: var(--light);
+    border: 1px solid #bf3ca4;
+}
+
+/* =========================================================
+   DARK ICONS
+========================================================= */
+
+body.dark-mode i,
+body.dark-mode .fa-solid,
+body.dark-mode .fa-regular,
+body.dark-mode .fa-brands {
+    color: var(--light);
+}
+
+/* =========================================================
+   DARK CHAT HISTORY
+========================================================= */
+
+body.dark-mode .history-item {
+    color: var(--white);
+}
+
+/* =========================================================
+   DARK HISTORY TITLE
+========================================================= */
+
+body.dark-mode .history-item > button:first-child {
+    background: #f488f8;
+    color: var(--light);
+}
+
+body.dark-mode .history-item > button:first-child:hover {
+  
+    color: var(--white);
+}
+
+/* =========================================================
+   DARK DELETE BUTTON
+========================================================= */
+
+body.dark-mode .history-item > button:last-child {
+    background: #f488f8;
+    color: var(--light);
+}
+
+/* =========================================================
+   DARK DELETE BUTTON HOVER
+========================================================= */
+
+body.dark-mode .history-item > button:last-child:hover {
+  
+    color: var(--white);
+}
+
+/* =========================================================
+   DARK DELETE ICON
+========================================================= */
+
+body.dark-mode .history-item > button:last-child i {
+    color: var(--light);
+}
+
+body.dark-mode .history-item > button:last-child:hover i {
+    color: var(--white);
+}
+
+/* =========================================================
+   DARK HOVER
+========================================================= */
+
+
+
+
+
+
+
+
+body.dark-mode #newChat:hover {
+    
+    color: rgb(249, 223, 246);
+}
+
+body.dark-mode #deleteAll:hover {
+   
+    color: rgb(249, 223, 246);
+}
+
+body.dark-mode #darkmood:hover {
+   
+    color: rgb(249, 223, 246);
+}
+
+
+
+body.dark-mode #send:hover {
+    
+color: white;
+
+    box-shadow:
+        0 0 15px rgba(255, 0, 247, 0.981);
+}
+
+/* =========================================================
+   DARK SEND ICON
+========================================================= */
+
+body.dark-mode #send i {
+    color: var(--light);
+    transform: scale(1.15);
+}
+
+body.dark-mode #send:hover i {
+   
+    transform: scale(1.15);
+}
+
+/* =========================================================
+   DARK TEXTAREA FOCUS
+========================================================= */
+
+/* =========================================================
+   FUTURE ELEMENTS
+========================================================= */
+
+body.dark-mode .message,
+body.dark-mode .messageai,
+body.dark-mode .history-item,
+body.dark-mode .history-item button {
+    transition:
+        background-color 0.25s ease,
+        color 0.25s ease,
+        border-color 0.25s ease;
+}

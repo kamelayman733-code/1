@@ -1,0 +1,109 @@
+/* =========================================================
+   MAIN BUTTONS
+========================================================= */
+
+#deleteAll{
+
+ color: rgb(242, 185, 247);
+    font-size: 20px;
+    background: #470263 ;
+    border: 2px solid #ed52f8;
+    width: 100%;
+    border-radius: 50px;
+    padding: 5px;
+    cursor: pointer;
+    transition:
+        transform 0.25s ease,
+        background-color 0.25s ease,
+        color 0.25s ease,
+        box-shadow 0.25s ease;
+         margin-top: 20px;
+}
+
+#newChat {
+   
+ color: rgb(242, 185, 247);
+    font-size: 20px;
+    background: #470263 ;
+    border: 2px solid #ed52f8;
+    width: 100%;
+    border-radius: 50px;
+    padding: 5px;
+    cursor: pointer;
+    transition:
+        transform 0.25s ease,
+        background-color 0.25s ease,
+        color 0.25s ease,
+        box-shadow 0.25s ease;
+         margin-top: 20px;
+
+}
+#darkmood {
+   margin-top: 20px;
+ color: rgb(242, 185, 247);
+    font-size: 20px;
+    background: #470263 ;
+    border: 2px solid #ed52f8;
+    width: 100%;
+    border-radius: 50px;
+    padding: 5px;
+    cursor: pointer;
+    transition:
+        transform 0.25s ease,
+        background-color 0.25s ease,
+        color 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+/* =========================================================
+   GENERAL BUTTON
+========================================================= */
+
+ #menuBtn{
+    display: none;
+ }
+
+/* =========================================================
+   NEW CHAT + DELETE ALL
+========================================================= */
+
+#newChat,
+#deleteAll {
+    position: relative;
+    overflow: hidden;
+}
+
+#newChat::before,
+#deleteAll::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+#newChat:hover::before,
+#deleteAll:hover::before {
+    left: 100%;
+}
+
+#newChat:hover,
+#deleteAll:hover,
+#darkmood:hover {
+
+      
+    color: var(--white);
+   
+    box-shadow:
+        0 0 10px #ed52f8,
+        0 0 25px  #a838b0;
+}
+
+#newChat:active,
+#deleteAll:active,
+#darkmood:active {
+    transform: scale(0.95);
+}

@@ -1,0 +1,48 @@
+/* =========================================================
+   HEADER
+========================================================= */
+
+header {
+    background: none;
+   
+    text-align: center;
+    font-size: 40px;
+    font-family:
+        'Franklin Gothic Medium',
+        'Arial Narrow',
+        Arial,
+        sans-serif;
+    width: 50%;
+    position:relative ;
+    top: 0;
+    right: 0%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+padding-bottom: 3px;
+
+    transition:
+        box-shadow 0.3s ease,
+        background 0.3s ease;
+}
+
+span {
+    margin: 0;
+    font-size: 60px;
+
+    background: linear-gradient(
+        90deg,
+        #ea05f6,
+        #fa49f7,
+        #f972fd,
+        #f47fe8
+    );
+
+    margin-right: 50%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

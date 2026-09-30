@@ -1,0 +1,20 @@
+{
+  "name": "SEYRAN AI",
+  "short_name": "SEYRAN",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0B0908",
+  "theme_color": "#8B2CF5",
+  "icons": [
+    {
+      "src": " IMG\\seyran_exact_pink_palette_icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": " IMG\\seyran_exact_pink_palette_icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
